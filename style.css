@@ -67,6 +67,94 @@ nav ul li a:hover{
 
 .banner img{
     width: 100%;
-    height: 100%px;
+    height: 100%;
+    object-fit: cover;
+}
+
+.servicos{
+    width: 100%;
+   height: auto;
+   display: flex;
+    justify-content: space-between;
+    margin: 40px 0 100px 0;
+}
+
+.item-serviços{
+    width: 22%;
+    height: auto;
+}
+
+.item-serviços img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.item-serviços h2{
+    background-color: #333;
+    color: #fff;
+    margin: 0;
+    text-align: center;
+    font-family: sans-serif;
+    margin-top: -5px 0;
+    padding: 5px 0;
+}
+
+.publicidade{
+    width: 100%;
+    background-color: #ffffff;
+}
+
+.publicidade h1{
+    text-align: center;
+    font-family: sans-serif;
+   font-size: 40px;
+   text-transform: uppercase;
+}
+
+.cliente{
+
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px ;
+}
+
+.texto-cliente{
+padding: 20px;
+font-size: 18px;
+font-family: sans-serif;
+}
+
+.cliente img{
+    width: 25%;
+    height: auto;
+    object-fit: cover;
+}
+
+.delivery{
+    width: 100%;
+    height: auto;
+    background-color: rgb(176, 230, 106);
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-end;
+}
+
+.numero{
+    margin: 20px 0 0 20% ;
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.numero p{
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.delivery img{
+    width: 50%;
+    height: auto;
     object-fit: cover;
 }
