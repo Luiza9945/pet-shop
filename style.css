@@ -158,3 +158,13 @@ font-family: sans-serif;
     height: auto;
     object-fit: cover;
 }
+
+/*########################################## FALE, CONOSCO  #############################*/
+.fale-conosco{
+    background-color: #333;
+    color: #fff;
+    width: 100%;
+    height: auto;
+    padding: 40px 0;
+}
+            
